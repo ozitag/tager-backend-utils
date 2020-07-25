@@ -1,0 +1,19 @@
+{
+  "name": "ozitag/tager-backend-utils",
+  "description": "Utils Backend",
+  "license": "MIT",
+  "homepage": "https://github.com/ozitag/tager-backend-settings",
+  "authors": [
+    {
+      "name": "Vital Ozierski <v.ozierski@ozitag.com>",
+      "email": "v.ozierski@ozitag.com",
+      "homepage": "https://ozitag.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OZiTAG\\Tager\\Backend\\Utils\\": "src"
+    }
+  }
+}
