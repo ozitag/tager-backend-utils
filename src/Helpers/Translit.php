@@ -4,6 +4,10 @@ namespace OZiTAG\Tager\Backend\Utils\Helpers;
 
 class Translit
 {
+    /**
+     * @param $s
+     * @return string
+     */
     public static function translit($s)
     {
         $s = (string)$s;

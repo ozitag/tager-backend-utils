@@ -4,6 +4,10 @@ namespace OZiTAG\Tager\Backend\Utils\Helpers;
 
 class ArrayHelper
 {
+    /**
+     * @param array $arr
+     * @return bool
+     */
     public static function isAssoc(array $arr)
     {
         if (array() === $arr) return false;
