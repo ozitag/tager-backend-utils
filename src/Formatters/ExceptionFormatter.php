@@ -5,19 +5,19 @@ namespace OZiTAG\Tager\Backend\Utils\Formatters;
 class ExceptionFormatter
 {
     /**
-     * @param \Exception $exception
+     * @param \Throwable $exception
      * @return string
      */
-    public static function getMessageWithFileInfo(\Exception $exception)
+    public static function getMessageWithFileInfo(\Throwable $exception)
     {
         return $exception->getMessage() . ' (' . $exception->getFile() . ', line ' . $exception->getLine() . ')';
     }
 
     /**
-     * @param \Exception $exception
+     * @param \Throwable $exception
      * @return string
      */
-    public static function getFullExceptionInfo(\Exception $exception)
+    public static function getFullExceptionInfo(\Throwable $exception)
     {
         return (string)$exception;
     }
