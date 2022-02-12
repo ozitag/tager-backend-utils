@@ -12,7 +12,6 @@
         }
     ],
     "require": {
-        "ozitag/tager-backend-core": "^1.2",
         "ramsey/uuid": "^4.2.3"
     },
     "autoload": {
